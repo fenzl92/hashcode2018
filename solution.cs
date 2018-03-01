@@ -4,6 +4,8 @@ using System;
 using System.IO;
 
 class program{
+
+    //test commit
 	public int currentTime = 0; //current tick, initialised to 0
 	public int availableCars; //number of cars not on rides
 	public ride[] rides; //array of rides
