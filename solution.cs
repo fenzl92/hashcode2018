@@ -4,15 +4,19 @@ using System;
 using System.IO;
 
 class program{
+
+    string[] files = new string[] { "a_example.in", "b_should_be_easy.in", "c_no_hurry.in", "d_metropolis.in", "e_high_bonus.in" };
+    int cars;
+
 	static void Main(){
 		
 	}
 	
 	static void readIn(){ //read data in from the .in file
-		string[] file = System.IO.ReadAllLines("a_example.in");
+		string[] file = System.IO.ReadAllLines(files[0]);
 		string[] currentLine = file[0].Split(' ');
-		
-	}
+        cars = currentLine[2];
+    }
 }
 
 class ride{
